@@ -1,6 +1,5 @@
 # Dunce Crypto
 
-```
 >Super Hash
 
 >50
@@ -12,7 +11,6 @@
 >Note: Follow the format of the provided hash exactly
 
 >Hash: CD04302CBBD2E0EB259F53FAC7C57EE2
-```
 
 
 My first thought, "it sure doesnt, but it might make it worse!" so I started googling 
