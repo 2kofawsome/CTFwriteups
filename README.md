@@ -13,5 +13,3 @@ Writeups for the various CTFs I have been in, hopefully will continue to update 
 
 
 >Check out my website at 2kofawsome.com/2kofawsome/CTFwriteups/RedpwnCTF
-
->Email me at samgunter12@gmail.com

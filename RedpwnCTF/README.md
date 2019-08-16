@@ -4,17 +4,17 @@ This was a nice week long CTF that reminded me just how much I still need to lea
 Out of 50 possible challenges I was able to complete 10, so a small base that I can grow on in the future
 
 ## Completed Challenge List
-##### _By order of solves_
-* [Dunce Crypto](https://github.com/2kofawsome/CTFwriteups/RedpwnCTF/DunceCrypto)
+##### _By order solved_
+* [Dunce Crypto](DunceCrypto)
 * Discord _(No writeup)_
-* [easycipher](https://github.com/2kofawsome/CTFwriteups/RedpwnCTF/easycipher)
-* [BabbyPwn](https://github.com/2kofawsome/CTFwriteups/RedpwnCTF/BabbyPwn)
-* [Molecule Shirts](https://github.com/2kofawsome/CTFwriteups/RedpwnCTF/MoleculeShirts)
-* [Super Hash](https://github.com/2kofawsome/CTFwriteups/RedpwnCTF/SuperHash)
-* [crypt](https://github.com/2kofawsome/CTFwriteups/RedpwnCTF/crypt)
-* [AUR](https://github.com/2kofawsome/CTFwriteups/RedpwnCTF/AUR)
+* [easycipher](easycipher)
+* [BabbyPwn](BabbyPwn)
+* [Molecule Shirts](MoleculeShirts)
+* [Super Hash](SuperHash)
+* [crypt](crypt)
+* [AUR](AUR)
 * Survey _(No writeup)_
-* [MC Password Storage](https://github.com/2kofawsome/CTFwriteups/RedpwnCTF/MCPasswordStorage)
+* [MC Password Storage](MCPasswordStorage)
 
 
 
@@ -23,5 +23,3 @@ Out of 50 possible challenges I was able to complete 10, so a small base that I 
 
 
 >Check out my website at 2kofawsome.com/2kofawsome/CTFwriteups/RedpwnCTF
-
->Email me at samgunter12@gmail.com
