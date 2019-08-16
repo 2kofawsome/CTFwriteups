@@ -20,5 +20,5 @@ and voila: flag{I_d0nt_w4nt_t0_p4y_my_tax3s}
 
 
 >Check out my website at 2kofawsome.com/2kofawsome/CTFwriteups/RedpwnCTF
+
 >Email me at samgunter12@gmail.com
->All other socials are 2kofawsome (awsome is spelt incorrect)

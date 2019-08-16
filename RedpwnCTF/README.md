@@ -23,5 +23,5 @@ Out of 50 possible challenges I was able to complete 10, so a small base that I 
 
 
 >Check out my website at 2kofawsome.com/2kofawsome/CTFwriteups/RedpwnCTF
+
 >Email me at samgunter12@gmail.com
->All other socials are 2kofawsome (awsome is spelt incorrect)
