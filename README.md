@@ -3,10 +3,13 @@ Writeups for the various CTFs I have been in, hopefully will continue to update 
 
 ## CTF List
 #### 2018
-*PicoCTF _(No writeups)_
+* PicoCTF _(No writeups)_
 #### 2019
-*CryptoCTF _(No writeups)_
-*[RedpwnCTF](https://github.com/2kofawsome/CTFwriteups/RedpwnCTF)
+* CryptoCTF _(No writeups)_
+* [RedpwnCTF](https://github.com/2kofawsome/CTFwriteups/RedpwnCTF)
+
+
+
 
 
 >Check out my website at 2kofawsome.com/2kofawsome/CTFwriteups/RedpwnCTF
