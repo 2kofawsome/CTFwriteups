@@ -15,11 +15,3 @@ Out of 50 possible challenges I was able to complete 10, so a small base that I 
 * [AUR](AUR)
 * Survey _(No writeup)_
 * [MC Password Storage](MCPasswordStorage)
-
-
-
-
-
-
-
->Check out my website at 2kofawsome.com/2kofawsome/CTFwriteups/RedpwnCTF
