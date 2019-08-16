@@ -11,7 +11,7 @@
 
 >mshn{P_k0ua_d4ua_a0_w4f_tf_ahe3z}
 
-
+***
 
 Given the mshn{blahblahblah} format and the obvious mention of "Emperor Caesar" it is clear that it is a caesar cipher here.
 And since a shift of 7 on flag{blahblah} would create mshn{blahblah} I just put the ciphertext through https://www.dcode.fr/caesar-cipher with a shift of 7,
