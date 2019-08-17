@@ -19,7 +19,7 @@ But then I ntoiced something very important, the search by maintainer/co-maintai
 Since the challenege was written by arinerron I searched that up and 4 things showed up, game-git, onionr-git, pfc-git, and lazypkg-git.
 
 
-A quick look at the 4 show that one of [them](https://aur.archlinux.org/packages/game-git/) was editied on the day the challenge went live, this is looking good 
+A quick look at the 4 show that one of [them](https://aur.archlinux.org/packages/game-git/) was edited on the day the challenge went live, this is looking good 
 After a bit of snooping I found the "view changes" button, and surprise! [One](https://aur.archlinux.org/cgit/aur.git/commit/?h=game-git&id=7cd93efd62fb4bcd6d1233caa92107a32078b52e) was called "add flag"
 
 
