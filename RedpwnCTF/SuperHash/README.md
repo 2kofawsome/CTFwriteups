@@ -57,8 +57,8 @@ Even though md5 hashes are lowercase, I need to make them uppercase before hashi
 
 ```Python
 for n in range(10):
-		hashed = hashlib.md5(hashed.encode('utf-8')).hexdigest().upper()
-    if hashed == "CD04302CBBD2E0EB259F53FAC7C57EE2":
+	hashed = hashlib.md5(hashed.encode('utf-8')).hexdigest().upper()
+if hashed == "CD04302CBBD2E0EB259F53FAC7C57EE2":
 ```
 
 lower() became upper() then bam, instant result when running the code, 

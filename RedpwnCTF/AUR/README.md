@@ -1,17 +1,28 @@
-# Dunce Crypto
+# AUR
 
-```
-Dunce Crypto
-50
-Written by: blevy
+>AUR
 
-Emperor Caesar encrypted a message with his record-breaking high-performance encryption method. You are his tax collector that he is trying to evade. Fortunately for you, his crown is actually a dunce cap.
+>50
 
-mshn{P_k0ua_d4ua_a0_w4f_tf_ahe3z}
-```
+>Written by: arinerron
+
+>Help! We lost aur flag in the Arch User Repository! Go find it for us.
+
+***
+
+A quick google search of the Arch User Repository or AUR shows that its a community maintained group of files or soemthing? maybe? I don't know and don't really care, I just want a flag.
+
+The main [site](https://aur.archlinux.org/) lead me to this package search [page](https://aur.archlinux.org/packages/?SB=l&SO=d),
+in which I made a few seraches such as redpwn (no results) and flag (wayyyy too many results).
+
+But then I ntoiced something very important, the search by maintainer/co-maintainer field, this is it.
+Since the challenege was written by arinerron I searched that up and 4 things showed up, game-git, onionr-git, pfc-git, and lazypkg-git.
 
 
-Given the mshn{blahblahblah} format and the obvious mention of "Emperor Caesar" it is clear that it is a caesar cipher here.
-And since a shift of 7 on flag{blahblah} would create mshn{blahblah} I just put the ciphertext through https://www.dcode.fr/caesar-cipher with a shift of 7,
+A quick look at the 4 show that one of [them](https://aur.archlinux.org/packages/game-git/) was editied on the day the challenge went live, this is looking good 
+After a bit of snooping I found the "view changes" button, and surprise! [One](https://aur.archlinux.org/cgit/aur.git/commit/?h=game-git&id=7cd93efd62fb4bcd6d1233caa92107a32078b52e) was called "add flag"
 
-and voila: flag{I_d0nt_w4nt_t0_p4y_my_tax3s}
+
+Then in this link there was the flag, flag{w0w-have_fun_in-g4m3!}
+
+A quick and easy 50 points, and some shameless promotion of this creators game

@@ -1,17 +1,19 @@
-# Dunce Crypto
+# BabbyPwn
 
-```
-Dunce Crypto
-50
-Written by: blevy
+>BabbyPwn
 
-Emperor Caesar encrypted a message with his record-breaking high-performance encryption method. You are his tax collector that he is trying to evade. Fortunately for you, his crown is actually a dunce cap.
+>50
 
-mshn{P_k0ua_d4ua_a0_w4f_tf_ahe3z}
-```
+>Written by: blevy
+
+>nc chall2.2019.redpwn.net 4001
+
+***
+
+I know I can't do any real pwns, but this is just an easy one, right?
+Maybe a bit of overflow, some string formatting, just something to warm up.
+
+Wait, all I had to do was type the nc link into my raspberry pi, and then, walk away?
 
 
-Given the mshn{blahblahblah} format and the obvious mention of "Emperor Caesar" it is clear that it is a caesar cipher here.
-And since a shift of 7 on flag{blahblah} would create mshn{blahblah} I just put the ciphertext through https://www.dcode.fr/caesar-cipher with a shift of 7,
-
-and voila: flag{I_d0nt_w4nt_t0_p4y_my_tax3s}
+After a few lines of text it gave me flag{st341ing_is_wr0ng}, oh, okay

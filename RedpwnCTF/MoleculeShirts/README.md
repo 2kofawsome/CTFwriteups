@@ -1,17 +1,37 @@
-# Dunce Crypto
+# Molecule Shirts
 
-```
-Dunce Crypto
-50
-Written by: blevy
+>Molecule Shirts
 
-Emperor Caesar encrypted a message with his record-breaking high-performance encryption method. You are his tax collector that he is trying to evade. Fortunately for you, his crown is actually a dunce cap.
+>212
 
-mshn{P_k0ua_d4ua_a0_w4f_tf_ahe3z}
-```
+>Written by: NotDeGhost
+
+>Apparently, this picture has a name? The flag is in the format flag{name}.
+
+***
+
+This was a really fun challenge, and surprisingly not many had solved so it was worth more points (212)
+
+It started with an image "picture.png", this appears to be some kind of chemical compound, organic with mostly C and H (thanks gr12 chem).
+a quick google search returns "love" which lead me on a long path of looking at endorphins like dopamine, seratonin, oxytocin, none of which were the solution.
 
 
-Given the mshn{blahblahblah} format and the obvious mention of "Emperor Caesar" it is clear that it is a caesar cipher here.
-And since a shift of 7 on flag{blahblah} would create mshn{blahblah} I just put the ciphertext through https://www.dcode.fr/caesar-cipher with a shift of 7,
+That wild goose chase might have eben why tehre are so few solves, going back to the google search and scrolling down a bit leads to blankets, mugs, and stickers with some artistic designs on them,
+but exploring cafepress.com a bit more, and specifically the [chemistry formulas stickers](https://www.cafepress.com/+chemistry-formulas+stickers) section starts to shwo somethign very promising.
 
-and voila: flag{I_d0nt_w4nt_t0_p4y_my_tax3s}
+There are some stickers with very very similar images that have large names on them, could this be a reference to"this picture has a name"?
+And they say MolecularShirts.com! It definitly is!
+
+Heading to that [site](MolecularShirts.com) we can explore "Your Name in Molecules!" and the "I don't get it" section under "More".
+[Don't get it](http://www.molecularshirts.com/dont-get-it/) explains everything about how these are named, and there are many examples on [Your name in molecules](http://www.molecularshirts.com/your-name-in-molecules/).
+
+I then manually decoded the image using the charts on [wikipedia](https://en.wikipedia.org/wiki/List_of_standard_amino_acids).
+Starting with the O due to its unique shape, then the Rs, then the M due to the only sulfur and the N due to the unique CONH2. _(follow along with the image and the wikipedia)_
+
+
+I now had  _R_RMS_RON_, a bit mroe fine tuning and looking around at examples on the [Your name in molecules](http://www.molecularshirts.com/your-name-in-molecules/) section revealed the rest.
+now I had the flag{drarmstrong}, and there was even this exact one on [Your name in molecules](http://www.molecularshirts.com/your-name-in-molecules/) (I wonder why it didn't show up on google search?)
+
+***
+
+Really fun challenge, my favorite, and it was nice for the 212 points when 8 of my completed challenges gave only 50.
