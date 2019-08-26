@@ -6,10 +6,10 @@ for a total of 600 points (making me tied for 67th!)
 
 ## Completed Challenge List
 ##### _By order solved_
-* [WelcomeToCodefest19!](Welcome to Codefest 19!)
-* [WhatLanguageIsThis](What language is this?)
-* [MailCapture](Mail capture)
-* [WeirdEncoding](Weird encoding)
+* [Welcome to Codefest 19!](WelcomeToCodefest19!)
+* [What language is this?](WhatLanguageIsThis)
+* [Mail capture](MailCapture)
+* [Weird encoding](WeirdEncoding)
 * Feedback - Codefest'19 _(No writeup)_
 
 

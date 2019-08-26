@@ -9,7 +9,7 @@ I was able to complete 3 challenges
 ##### _By order solved_
 * Discord _(No writeup)_
 * [Noki](Noki)
-* [WeirdText](Weird Text)
+* [Weird Text](WeirdText)
 
 
 
