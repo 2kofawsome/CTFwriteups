@@ -7,6 +7,8 @@ Writeups for the various CTFs I have been in, hopefully will continue to update 
 #### 2019
 * CryptoCTF _(No writeups)_
 * [RedpwnCTF](RedpwnCTF)
+* [HackCon](HackCon)
+* [Codefest19](Codefest19)
 
 
 
