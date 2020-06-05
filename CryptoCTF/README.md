@@ -4,5 +4,5 @@ I guess that means lot of people quit early
 
 ## Completed Challenge List
 ##### _By order solved_
-* Welcome (No writeup)_
-* Survey (No writeup)_
+* Welcome _(No writeup)_
+* Survey _(No writeup)_

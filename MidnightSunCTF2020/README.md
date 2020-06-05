@@ -7,8 +7,8 @@ Out of 26 possible challenges I was able to complete 3
 ## Completed Challenge List
 ##### _By order solved_
 * Sanity _(No writeup)_
-* [pyBonHash](pyBonHash)
-* [Verifier](Verifier)
+* [pyBonHash](pybonhash)
+* [Verifier](verifier)
 
 
 

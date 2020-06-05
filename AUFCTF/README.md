@@ -1,4 +1,4 @@
-# AUCTF 2020
+# AUFCTF 2020
 I was able to complete a ton of challenges, but failed to keep good notes as I was also studying for school at the time (32 out of 81)
 for a total of 5173 points, putting me in 253rd place out of 1184 teams (first place had 40406 points)
 
@@ -10,7 +10,7 @@ for a total of 5173 points, putting me in 253rd place out of 1184 teams (first p
 
 
 |Problem|Catgeory|Score|
-|---|---|---|---|
+|---|---|---|
 |Land Locked|Cryptography|50|
 |I'll Have The Salad|Cryptography|50|
 |Pretty Ridiculous|Cryptography|50|
