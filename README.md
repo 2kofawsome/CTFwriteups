@@ -9,6 +9,10 @@ Writeups for the various CTFs I have been in, hopefully will continue to update 
 * [RedpwnCTF](RedpwnCTF)
 * [HackCon](HackCon)
 * [Codefest19](Codefest19)
+* [CryptoCTf](CryptoCTf)
+#### 2020
+* [AUFCTF2020](AUFCTF2)
+* [MidnightSunCTF2020](MidnightSunCTF2020)
 
 
 
