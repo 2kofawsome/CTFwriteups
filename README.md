@@ -13,6 +13,7 @@ Writeups for the various CTFs I have been in, hopefully will continue to update 
 #### 2020
 * [AUFCTF2020](AUFCTF)
 * [MidnightSunCTF2020](MidnightSunCTF2020)
+* [make-git-better CTF](https://www.mrnice.dev/ctf-hof/)
 
 
 
