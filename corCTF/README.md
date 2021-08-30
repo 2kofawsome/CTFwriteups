@@ -1,6 +1,6 @@
 # corCTF
 Came in 138th place out of 904 teams with 1991 points, where the top team had 13712 points.
-I really enjoyed this CTF, an dhope  continue to improve and do well like this on future CTFs.
+I really enjoyed this CTF, and hope to continue to improve and do well like this on future CTFs.
 
 ## Completed Challenge List
 ##### _By order solved_

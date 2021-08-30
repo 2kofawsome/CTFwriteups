@@ -2,7 +2,7 @@
 
 >crypto/fibinary
 
->205 Points
+>205 Points\
 >Warmup your crypto skills with the superior number system!
 
 ***

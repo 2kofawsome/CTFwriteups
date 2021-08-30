@@ -2,13 +2,13 @@
 
 >crypto/dividing_secrets
 
->434 Points
->I won't give you the secret. But, I'll let you divide it.
+>434 Points\
+>I won't give you the secret. But, I'll let you divide it.\
 >nc crypto.be.ax 6000
 
 ***
 
-Running nc crypto.be.ax 6000 and looking at server.py, it can be seen that each time the program is run it generates a new, random p, g where p is a strong prime and 0 < g < p
+Running nc crypto.be.ax 6000 and looking at server.py, it can be seen that each time the program is run it generates a new, random p, g where p is a strong prime and 0 < g < p.
 Then the message x is encrypted, giving a unique enc each time the program is run. The user then gives 64 numbers, each of which is used to encrypt x with a defined formula
 
 thus given
@@ -22,7 +22,7 @@ pow(g, x // div, p)
 with div chosen, how can one determine x?
 
 
-Note that g < p, thus g^1 % p = g 
+Note that g < p, thus g^1 % p = g, 
 and g, p > 0, thus g^0 % p = 1
 
 then, note that x // div = 0 when div > x, so we will use a bisection method to determine the minimum value of div where div > x, so tehn div - 1 = x
@@ -44,8 +44,8 @@ lower = 999999999999999999999999999999999999999999999999999999999999999999999999
 upper = 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
 ```
 
-Then using the program in solution.py, it does bisection to move towards the desired div value
-Note that the program quits after 64 attempts, thus these printed values are put in as the new upper and lower bounds
+Then using the program in solution.py, it does bisection to move towards the desired div value.
+Note that the program quits after 64 attempts, thus these printed values are put in as the new upper and lower bounds.
 This ended up resulting in
 ```
 div = x = 5207851285831991069018664616693415824195562260751582516097806772363284738507980478829791747964096025668757404599258689372930479386523996608148861164794493
