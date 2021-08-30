@@ -1,7 +1,7 @@
 # HackCon'19
 This CTF was extremly broken and crashed throughout, not to mention how much it messed up my sleep schedule due to delays and extending the time.
 Came 202nd place with 299 points
-505 teams total, top team had 7505 pounts
+505 teams total, top team had 7505 points
 
 I was able to complete 3 challenges
 
