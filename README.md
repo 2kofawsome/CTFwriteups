@@ -1,23 +1,23 @@
 # CTFwriteups
-Writeups for the various CTFs I have been in, hopefully will continue to update for all solved challenges, and can be a great indicator of how I improve and grow in my hacking ability.
+Writeups for the various CTFs I have been in, hopefully will continue to update for all solved challenges, 
+and can be a great indicator of how I improve and grow in my hacking ability.
 
 ## CTF List
-#### 2018
-* PicoCTF _(No writeups)_
-#### 2019
-* CryptoCTF _(No writeups)_
-* [RedpwnCTF](RedpwnCTF)
-* [HackCon](HackCon)
-* [Codefest19](Codefest19)
-* [picoCTF](picoCTF2019)
-#### 2020
-* [AUFCTF2020](AUFCTF)
-* [MidnightSunCTF2020](MidnightSunCTF2020)
-* [make-git-better CTF](https://www.mrnice.dev/ctf-hof/)
+
 #### 2021
-* [corCTF](corCTF)
+* [corCTF 2021](corCTF)
+* Hacker's Playground 2021 _(No Writeup)_
+#### 2020
+* [Midnight Sun CTF 2020 Quals](MidnightSunCTF2020)
+* [AUFCTF 2020](AUFCTF)
+#### 2019
+* [picoCTF 2019](picoCTF2019)
+* [Codefest CTF 2019](Codefest19)
+* [HackCon 2019](HackCon)
+* [redpwnCTF 2019](RedpwnCTF)
+* [Crypto CTF 2019](CryptoCTF)
+#### 2018
+* picoCTF 2018 _(No Writeup)_
 
 
-
-
->Check out my website at 2kofawsome.com
+> My team score can be seen here https://ctftime.org/team/66703/.
