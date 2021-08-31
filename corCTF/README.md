@@ -1,5 +1,5 @@
 # corCTF
-.
+
 I really enjoyed this CTF, and hope to continue to improve and do well like this on future CTFs.
 
 I was able to complete 7 challenges out of 46.\
