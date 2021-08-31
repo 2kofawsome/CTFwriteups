@@ -1,6 +1,10 @@
 # corCTF
-Came in 138th place out of 904 teams with 1991 points, where the top team had 13712 points.
+.
 I really enjoyed this CTF, and hope to continue to improve and do well like this on future CTFs.
+
+I was able to complete 7 challenges out of 46.\
+This lead to 1991 points where the top team has 13712 points.\
+Making me 138th out of 904 teams.
 
 ## Completed Challenge List
 ##### _By order solved_
@@ -21,3 +25,5 @@ I really enjoyed this CTF, and hope to continue to improve and do well like this
 |bank|crypto|489|
 |yeetcode|misc|402|
 |survey|meta|130|
+
+> The event can be seen here https://ctftime.org/event/1364.

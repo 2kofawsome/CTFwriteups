@@ -1,9 +1,10 @@
 # RedpwnCTF
-This was a nice week long CTF that reminded me just how much I still need to learn
-Came 158th place with 945 points
-926 teams total, top team had 12895 pounts
+This was a nice week long CTF that reminded me just how much I still need to learn.
 
-Out of 50 possible challenges I was able to complete 10, so a small base that I can grow on in the future
+I was able to complete 10 challenges out of 50.\
+This lead to 945 points where the top team has 12895 points.\
+Making me 158th out of 926 teams.
+
 
 ## Completed Challenge List
 ##### _By order solved_
@@ -19,8 +20,6 @@ Out of 50 possible challenges I was able to complete 10, so a small base that I 
 * [MC Password Storage](MCPasswordStorage)
 
 
-
-
 |Challenge|Category|Value|Time|
 |---|---|---|---|
 |Dunce Crypto|Cryptography|50|August 12th, 3:10:47 PM|
@@ -33,3 +32,5 @@ Out of 50 possible challenges I was able to complete 10, so a small base that I 
 |AUR|Misc|50|August 15th, 11:36:52 PM|
 |Survey|Misc|50|August 16th, 1:39:12 AM|
 |MC Password Storage|Misc|333|August 16th, 11:58:16 AM|
+
+> The event can be seen here https://ctftime.org/event/834.

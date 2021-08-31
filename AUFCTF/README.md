@@ -1,13 +1,14 @@
 # AUFCTF 2020
-I was able to complete a ton of challenges, but failed to keep good notes as I was also studying for school at the time (32 out of 81)
-for a total of 5173 points, putting me in 253rd place out of 1184 teams (first place had 40406 points)
+
+I was able to complete a ton of challenges, but failed to keep good notes as I was also studying for school at the time.
+
+I was able to complete 32 challenges out of 81.\
+This lead to 5173 points where the top team has 40406 points.\
+Making me 253rd out of 1184 teams.
 
 ## Completed Challenge List
 ##### _By order solved_
 * No organized writeups, sorry
-
-
-
 
 |Problem|Catgeory|Score|
 |---|---|---|
@@ -43,3 +44,5 @@ for a total of 5173 points, putting me in 253rd place out of 1184 teams (first p
 |Start Here|Welcome|50|
 |Survey|Welcome|50|
 |Join our Discord|Welcome|50|
+
+> The event can be seen here https://ctftime.org/event/1020.
