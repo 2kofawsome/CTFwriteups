@@ -11,6 +11,8 @@ Making me _ out of _ teams.
 * [checker](checker)
 * Welcome _(No writeup)_
 * [poem-collection](poem-collection)
+* [Lazy Leaks](Lazy Leaks)
+* Survey Says _(No writeup)_
 
 
 |Challenge|Category|Value|Time|
