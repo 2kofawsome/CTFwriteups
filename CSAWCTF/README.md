@@ -13,6 +13,7 @@ Making me _ out of _ teams.
 * [poem-collection](poem-collection)
 * [Lazy Leaks](Lazy Leaks)
 * Survey Says _(No writeup)_
+* [Turing](Turing)
 
 
 |Challenge|Category|Value|Time|
