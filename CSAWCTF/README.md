@@ -8,7 +8,9 @@ Making me _ out of _ teams.
 
 ## Completed Challenge List
 ##### _By order solved_
-* 
+* [checker](checker)
+* Welcome _(No writeup)_
+* [poem-collection](poem-collection)
 
 
 |Challenge|Category|Value|Time|
