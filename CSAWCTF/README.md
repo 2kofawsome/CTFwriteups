@@ -14,6 +14,7 @@ Making me _ out of _ teams.
 * [Lazy Leaks](Lazy Leaks)
 * Survey Says _(No writeup)_
 * [Turing](Turing)
+* [Crack Me](Crack Me)
 
 
 |Challenge|Category|Value|Time|
