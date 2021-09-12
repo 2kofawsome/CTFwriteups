@@ -16,6 +16,7 @@ Making me _ out of _ teams.
 * [Turing](Turing)
 * [Crack Me](Crack Me)
 * [Weak Password](Weak Password)
+* [Gotta Decrypt Them All](Gotta Decrypt Them All)
 
 
 |Challenge|Category|Value|Time|
