@@ -9,7 +9,7 @@
 
 Since the hash is 64 digits, I assumed sha256, but this was confirmed with https://hashes.com/en/tools/hash_identifier
 
-As John the Ripper seemed confusing, I wrote up a quiz python script to solve this challenge (solution.py)
+As John the Ripper seemed confusing, I wrote up a quick python script to solve this challenge (solution.py)
 
 Running through a big list of passwords that I found, with the sha256 salt at the beginning (I also tried the end), it gives a solution!
 

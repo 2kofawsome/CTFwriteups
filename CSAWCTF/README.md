@@ -15,6 +15,7 @@ Making me _ out of _ teams.
 * Survey Says _(No writeup)_
 * [Turing](Turing)
 * [Crack Me](Crack Me)
+* [Weak Password](Weak Password)
 
 
 |Challenge|Category|Value|Time|
