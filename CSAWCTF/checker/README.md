@@ -2,7 +2,7 @@
 
 >warm-up/checker
 
->_ Points\
+>25 Points\
 >What's up with all the zeros and ones? Where are my letters and numbers? (This is a reversing challenge.)
 
 ***
