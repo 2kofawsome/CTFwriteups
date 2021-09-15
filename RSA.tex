@@ -1,0 +1,87 @@
+
+\documentclass[11pt,notitlepage]{report}
+\textwidth 15cm 
+\textheight 21.3cm
+\evensidemargin 6mm
+\oddsidemargin 6mm
+\topmargin -1.1cm
+\setlength{\parskip}{1.5ex}
+
+\usepackage{titlesec}
+    \titleformat{\chapter}{\Large\centering}{}{0pt}{}{}
+
+\usepackage{amsfonts,amsmath,amssymb,enumerate, amsthm}
+\usepackage{enumitem}  
+\usepackage{hyperref}
+\counterwithout{section}{chapter}
+\newcommand{\bb}[1]{\ensuremath{\mathbb{#1}}}
+\newcommand{\tbf}[1]{\textbf{#1}}
+\usepackage{minted}
+\usemintedstyle{borland}
+
+\makeatletter
+\newcommand*{\toccontents}{\@starttoc{toc}}
+
+\begin{document}
+\parindent=0pt
+
+\title{\vspace{-15mm}Catalogue of RSA Attacks: From Various CTFs\vspace{-5mm}}
+\author{by Sam Gunter}
+\date{}
+\maketitle
+
+\toccontents
+
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{1}
+
+\section{Cube-Root Attack}
+\vspace{-5mm}
+\textbf{Low Public Exponent Attack}
+
+Given N, e, c where e is very small\\
+Finding m\\
+
+More explanation will be given in future edits
+
+\begin{minted}{python}
+# since e is small, found m by finding cube root
+def CubeRootNec(N, e, c):
+    upper = N
+    lower = 1
+    while True:
+        mid = (upper + lower) // 2
+        if (mid ** e <= c):
+            lower = mid
+        else:
+            upper = mid
+        if upper ** e == c:
+            sol = upper
+            break
+        if lower ** e == c:
+            sol = lower
+            break
+    return bytes.fromhex(hex(sol)[2:])
+\end{minted}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
