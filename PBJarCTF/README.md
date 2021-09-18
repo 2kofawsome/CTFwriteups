@@ -13,6 +13,7 @@ Making me  out of  teams.
 * [readFlag1](readFlag1)
 * [readFlag3](readFlag3)
 * [TechLead](TechLead)
+* [ProgrammersHateProgramming](ProgrammersHateProgramming)
 
 |Problem|Catgeory|Score|
 |---|---|---|
