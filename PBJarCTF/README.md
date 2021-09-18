@@ -12,6 +12,7 @@ Making me  out of  teams.
 * [miner](miner)
 * [readFlag1](readFlag1)
 * [readFlag3](readFlag3)
+* [TechLead](TechLead)
 
 |Problem|Catgeory|Score|
 |---|---|---|
