@@ -8,6 +8,7 @@ Making me  out of  teams.
 ## Completed Challenge List
 ##### _By order solved_
 * [discord plz] _(No writeup)_
+* [Convert](Convert)
 
 |Problem|Catgeory|Score|
 |---|---|---|
