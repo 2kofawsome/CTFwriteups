@@ -9,6 +9,9 @@ Making me  out of  teams.
 ##### _By order solved_
 * [discord plz] _(No writeup)_
 * [Convert](Convert)
+* [miner](miner)
+* [readFlag1](readFlag1)
+* [readFlag3](readFlag3)
 
 |Problem|Catgeory|Score|
 |---|---|---|
