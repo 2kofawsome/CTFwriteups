@@ -20,6 +20,7 @@ Making me  out of  teams.
 * [Art Mystery](ArtMystery)
 * [Stegosaurus stenops](StegosaurusStenops)
 * [Wirf die Gläser an die Wand](WirfdieGlaser)
+* [memedium](memedium)
 
 |Problem|Catgeory|Score|
 |---|---|---|
