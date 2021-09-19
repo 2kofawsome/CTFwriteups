@@ -14,6 +14,9 @@ Making me  out of  teams.
 * [readFlag3](readFlag3)
 * [TechLead](TechLead)
 * [ProgrammersHateProgramming](ProgrammersHateProgramming)
+* [polymer](polymer)
+* [ProgrammersHateProgramming2](ProgrammersHateProgramming2)
+* [Hack NASA With HTML Mr. Inspector Sherlock](HackNASAWithHTML
 
 |Problem|Catgeory|Score|
 |---|---|---|
