@@ -1,6 +1,5 @@
 # PCJar CTF
 
-
 I was able to complete  challenges out of .\
 This lead to  points where the top team has  points.\
 Making me  out of  teams.
@@ -16,7 +15,8 @@ Making me  out of  teams.
 * [ProgrammersHateProgramming](ProgrammersHateProgramming)
 * [polymer](polymer)
 * [ProgrammersHateProgramming2](ProgrammersHateProgramming2)
-* [Hack NASA With HTML Mr. Inspector Sherlock](HackNASAWithHTML
+* [Hack NASA With HTML Mr. Inspector Sherlock](HackNASAWithHTML)
+& [LunaGuesser](LunaGuesser)
 
 |Problem|Catgeory|Score|
 |---|---|---|
