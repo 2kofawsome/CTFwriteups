@@ -18,6 +18,8 @@ Making me  out of  teams.
 * [Hack NASA With HTML Mr. Inspector Sherlock](HackNASAWithHTML)
 * [LunaGuesser](LunaGuesser)
 * [Art Mystery](ArtMystery)
+* [Stegosaurus stenops](StegosaurusStenops)
+* [Wirf die Gläser an die Wand](WirfdieGlaser)
 
 |Problem|Catgeory|Score|
 |---|---|---|
