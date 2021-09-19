@@ -1,6 +1,6 @@
-# forensics/LunaGuesser
+# forens/LunaGuesser
 
->forensics/LunaGuesser
+>forens/LunaGuesser
 
 > Points\
 >We intercepted this message being sent from a strange location. Can you figure out where it's being sent from? Note: The flag is the name of a location. All lowercase letters and words separated by spaces. ex: flag{new_york_city}
