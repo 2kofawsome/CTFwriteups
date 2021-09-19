@@ -21,6 +21,7 @@ Making me  out of  teams.
 * [Stegosaurus stenops](StegosaurusStenops)
 * [Wirf die Gläser an die Wand](WirfdieGlaser)
 * [memedium](memedium)
+* [Mr. Robot and Friends](MrRobotAndFriends)
 
 |Problem|Catgeory|Score|
 |---|---|---|
