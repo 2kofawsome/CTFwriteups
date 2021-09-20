@@ -24,6 +24,8 @@ Making me  out of  teams.
 * [Mr. Robot and Friends](MrRobotAndFriends)
 * [web](web)
 * [walkthrough](walkthrough)
+* [tippy tappies](tippytappies)
+* [survey] _(No writeup)_
 
 |Problem|Catgeory|Score|
 |---|---|---|
