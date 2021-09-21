@@ -5,7 +5,7 @@ and can be a great indicator of how I improve and grow in my hacking ability.
 ## CTF List
 
 #### 2021
-* [PCJar CTF](PCJarCTF)
+* [PBJar CTF](PBJarCTF)
 * [CSAW CTF Qualification Round 2021](CSAWCTF)
 * [corCTF 2021](corCTF)
 * Hacker's Playground 2021 _(No Writeup)_
