@@ -36,6 +36,89 @@
 \newpage
 \setcounter{page}{1}
 
+\section{RSA Overview}
+
+The RSA (Rivest-Shamir-Adleman) cryptosystem is dependant on the fact that some operations are easy to do in one direction, but very hard to do in the opposite direction. For example, multiplication is fast, factoring is slow.
+
+Given primes $p_1, p_2 \dots$,\\
+Calculate
+$$n = p_1 p_2 \dots \text{ and } \lambda(n) = lcm(p_1-1, p_2-1, \dots)$$
+with the least common multiple calculated by the Euclidean Algorithm
+
+Now, choose an $e < \lambda(n)$ such that $e, \lambda(n)$ are coprime\\
+Calculate
+$$de \equiv 1 \pmod{\lambda(n)}$$
+by the Extended Euclidean Algorithm with Bezouts Identity since $e, \lambda(n)$ are coprime\\
+
+
+Now for a message $m$, calculate
+$$m^e \equiv c \pmod{n}$$
+
+Now, note that since $\lambda(n) = lcm(p_1-1, p_2-1, \dots)$ and $\lambda(n) = ed - 1$\\
+By definition, for non-negative integers $k_1, k_2, k_3 \dots$
+$$ed - 1 = k_1(p_2-1)(p_3-1)\dots = k_2(p_1-1)(p_2-1)\dots = \dots$$
+
+For each $p_i$, if $m$ is a multiple of $p_i$ then 
+$$m \equiv 0 \equiv (m^e)^d \pmod{p_i}$$
+thus assume $m$ is not a multiple of $p_i$, then by Fermat's Little Theorem
+$$m^{ed} \equiv m \left(m^{ed-1}\right) \equiv m \left(m^{k_j(p_1-1)\dots(p_i-1)\dots}\right) \equiv m \left(m^{(p_i - 1)}\right)^{k_j(p_1-1)\dots} \equiv m \left(1\right)^{k_j(p_1-1)\dots} \equiv m \pmod{p_i}$$
+And since each $p_i$ is coprime, by the Chinese Remainder Theorem
+$$m^{ed} \equiv m \pmod{n}$$
+
+and thus
+$$(c)^d \equiv (m^e)^d \equiv m \pmod{n}$$
+as desired
+
+\newpage
+\subsection{Generating RSA Keys}
+
+Typically, RSA is done with only 2 choices of primes, $p$ and $q$, as the difficulty in factoring comes from size, not the number of factors.
+
+Also, $e$ is often the number $65537 = 2^{16} + 1$, as it is a prime this almost always satisfies that $e$ and $\lambda(n)$ are coprime, and raising numbers to this exponent is easier as it contains only one flipped bit.
+
+\vspace{-2mm}
+\begin{minted}{python}
+def ExtendedEuclidean(a, b):
+    x,y, u,v = 0,1, 1,0
+    while a != 0:
+        q, r = b//a, b%a
+        m, n = x-u*q, y-v*q
+        b,a, x,y, u,v = a,r, u,v, m,n
+        gcd = b
+    return gcd, x
+def Carmichael(p, q):
+    gcd, x = ExtendedEuclidean(p, q)
+    totient = (p * q) // gcd
+    return totient
+def Euler(p, q):
+    return (p - 1) * (q - 1)
+# Returns d
+def GenerateEPQ(e, p, q):
+    N = p * q
+    totient = Euler(p, q) # Carmichael or Euler
+    gcd, d = ExtendedEuclidean(e, totient)
+    return d
+# Returns c
+def EncryptEMN(e, m, n):
+    return pow(m, e, n)
+def EncryptEMPQ(e, m, n):
+    n = p * q
+    return EncryptEMN(e, m, n)
+# Returns m
+def DecryptCDN(c, d, n):
+    return pow(c, d, n)
+def DecryptCEPQ(c, e, p, q):
+    d = GenerateEPQ(e, p, q)
+    n = p * q
+    return DecryptCDN(c, d, n)
+def DecryptCDPQ(c, d, p, q):
+    n = p * q
+    return DecryptCDN(c, d, n)
+\end{minted}
+
+
+\newpage
+
 \section{Cube-Root Attack}
 \vspace{-5mm}
 \textbf{Low Public Exponent Attack}
