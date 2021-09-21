@@ -1,0 +1,60 @@
+def ExtendedEuclidean(a, b):
+    x,y, u,v = 0,1, 1,0
+    while a != 0:
+        q, r = b // a, b % a
+        m, n = x - u * q, y - v * q
+        b,a, x,y, u,v = a,r, u,v, m,n
+        gcd = b
+    return gcd, x
+def Euler(p, q):
+    return (p - 1) * (q - 1)
+def Carmichael(p, q):
+    gcd, x = ExtendedEuclidean(p - 1, q - 1)
+    totient = Euler(p, q) // gcd
+    return totient
+# Returns d
+def GenerateEPQ(e, p, q):
+    N = p * q
+    totient = Carmichael(p, q) # Carmichael or Euler
+    gcd, d = ExtendedEuclidean(e, totient)
+    return d
+# Returns c
+def EncryptEMN(e, m, n):
+    return pow(m, e, n)
+def EncryptEMPQ(e, m, n):
+    n = p * q
+    return EncryptEMN(e, m, n)
+# Returns m
+def DecryptCDN(c, d, n):
+    return pow(c, d, n)
+def DecryptCEPQ(c, e, p, q):
+    d = GenerateEPQ(e, p, q)
+    n = p * q
+    return DecryptCDN(c, d, n)
+def DecryptCDPQ(c, d, p, q):
+    n = p * q
+    return DecryptCDN(c, d, n)
+# returns string representation of M
+def DecodeM(m):
+    return bytes.fromhex(hex(m)[2:])
+# returns int representation of M
+def EncodeM(m):
+    return int(''.join([hex(ord(c))[2:] for c in 'hi']), 16)
+
+# since e is small, found m by finding cube root
+def CubeRootNec(N, e, c):
+    upper = N
+    lower = 1
+    while True:
+        mid = (upper + lower) // 2
+        if (mid ** e <= c):
+            lower = mid
+        else:
+            upper = mid
+        if upper ** e == c:
+            sol = upper
+            break
+        if lower ** e == c:
+            sol = lower
+            break
+    return bytes.fromhex(hex(sol)[2:])
