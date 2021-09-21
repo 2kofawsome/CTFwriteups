@@ -2,7 +2,7 @@
 
 >forens/Wirf die Gläser an die Wand
 
-> Points\
+>361 Points\
 >Our operatives managed to intercept this message. We know they've been transporting their plans over the network we infiltrated so there must be something here that we're not seeing.
 
 ***

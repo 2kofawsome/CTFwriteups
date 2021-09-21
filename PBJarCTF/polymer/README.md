@@ -2,7 +2,7 @@
 
 >rev/polymer
 
-> Points\
+>200 Points\
 >I learned in my biology class that a polymer is a chain of monomers that can sometimes form long strings of molecules.
 
 ***

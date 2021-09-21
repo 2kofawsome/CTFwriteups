@@ -2,7 +2,7 @@
 
 >forens/Mr. Robot and Friends
 
-> Points\
+>367 Points\
 >phishing scams are scaryyyy ;w; and it seems like this fool fell for the oldest trick in the book. maybe if he watched more Mr. Robot he'd know how about this kind of thing (the flag is the name of the person who sent the phishing email e.g. flag{Bob_Smith})
 
 ***

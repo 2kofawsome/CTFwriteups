@@ -2,7 +2,7 @@
 
 >web/ProgrammersHateProgramming
 
-> Points\
+>202 Points\
 >just a little different than normally. Link: http://147.182.172.217:42002/index.php
 
 ***

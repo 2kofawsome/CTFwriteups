@@ -2,7 +2,7 @@
 
 >forens/memedium
 
-> Points\
+>326 Points\
 >not memeasy not memhard... just memedium. (p.s. it'd be good if you found password and wrapped it in flag{} lol)
 
 ***

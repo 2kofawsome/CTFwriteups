@@ -2,7 +2,7 @@
 
 >web/Hack NASA With HTML Mr. Inspector Sherlock
 
-> Points\
+>253 Points\
 >now introducing... the world's best website ever!!! Link: http://147.182.172.217:42006/ . Hint: DefyGG HATES scavenger hunts...he hates them! I don't expect you to waste a perfectly good day looking through hundreds of files. Speaking of stuff hes mad about, a while ago he was carrying files around school, he tripped and he scraped his knee. Ouch!
 
 

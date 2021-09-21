@@ -2,7 +2,7 @@
 
 >forens/Stegosaurus stenops
 
-> Points\
+>228 Points\
 >This stenops swallowed the flag... and some unusually large rock
 
 ***

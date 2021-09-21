@@ -2,7 +2,7 @@
 
 >crypto/ReallynotSecureAlgorithm
 
-> Points\
+>178 Points\
 >Here's the obligatory problem!!!
 
 ***

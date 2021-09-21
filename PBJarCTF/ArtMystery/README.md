@@ -2,7 +2,7 @@
 
 >forens/Art Mystery
 
-> Points\
+>320 Points\
 >You put your new artwork into a safe but when you looked in the morning, someone had stolen it!! Next time you'll have to cheCk youR loCk.
 
 ***
