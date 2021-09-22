@@ -34,16 +34,16 @@ def DecryptCEPQ(c, e, p, q):
 def DecryptCDPQ(c, d, p, q):
     n = p * q
     return DecryptCDN(c, d, n)
-# returns string representation of M
+# returns string representation of m
 def DecodeM(m):
     return bytes.fromhex(hex(m)[2:])
-# returns int representation of M
+# returns int representation of m
 def EncodeM(m):
     return int(''.join([hex(ord(c))[2:] for c in 'hi']), 16)
 
-# since e is small, found m by finding cube root
-def CubeRootNec(N, e, c):
-    upper = N
+# returns e root of c, m if m^e < n
+def CubeRootCEN(c, e, n):
+    upper = n
     lower = 1
     while True:
         mid = (upper + lower) // 2
@@ -57,4 +57,13 @@ def CubeRootNec(N, e, c):
         if lower ** e == c:
             sol = lower
             break
-    return bytes.fromhex(hex(sol)[2:])
+    return sol
+
+import oweiner
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-# PCJar CTF
+# PBJar CTF
 
 I was able to complete 21 challenges out of 48.\
 This lead to 4701 points where the top team has 13246 points.\
