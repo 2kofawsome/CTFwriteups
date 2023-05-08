@@ -4,6 +4,8 @@ and can be a great indicator of how I improve and grow in my hacking ability.
 
 ## CTF List
 
+#### 2023
+* [San Diego CTF](SDCTF)
 #### 2021
 * [PBJar CTF](PBJarCTF)
 * [CSAW CTF Qualification Round 2021](CSAWCTF)
@@ -23,11 +25,3 @@ and can be a great indicator of how I improve and grow in my hacking ability.
 
 
 > My team score can be seen here https://ctftime.org/team/66703/.
-
-# RSA Attacks
-
-Check out my growing list of RSA attacks I've used in CTFs, all with attached Python code!
-
-
-[RSA Attacks Document](RSA.pdf)
-
